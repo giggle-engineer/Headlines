@@ -7,15 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		082FB62C1B2262BA0064A09A /* Ticker.m in Sources */ = {isa = PBXBuildFile; fileRef = 082FB62B1B2262BA0064A09A /* Ticker.m */; };
+		082FB62D1B2262BA0064A09A /* Ticker.m in Sources */ = {isa = PBXBuildFile; fileRef = 082FB62B1B2262BA0064A09A /* Ticker.m */; };
 		083775521B21750900F40B90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 083775511B21750900F40B90 /* main.m */; };
 		083775551B21750900F40B90 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 083775541B21750900F40B90 /* AppDelegate.m */; };
 		083775581B21750900F40B90 /* Headlines.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 083775561B21750900F40B90 /* Headlines.xcdatamodeld */; };
-		0837755B1B21750900F40B90 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0837755A1B21750900F40B90 /* MasterViewController.m */; };
+		0837755B1B21750900F40B90 /* FeedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0837755A1B21750900F40B90 /* FeedTableViewController.m */; };
 		0837755E1B21750900F40B90 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0837755D1B21750900F40B90 /* DetailViewController.m */; };
 		083775611B21750900F40B90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0837755F1B21750900F40B90 /* Main.storyboard */; };
 		083775631B21750900F40B90 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 083775621B21750900F40B90 /* Images.xcassets */; };
 		083775661B21750900F40B90 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 083775641B21750900F40B90 /* LaunchScreen.xib */; };
 		083775721B21750900F40B90 /* HeadlinesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 083775711B21750900F40B90 /* HeadlinesTests.m */; };
+		083775851B21753F00F40B90 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 083775841B21753F00F40B90 /* InterfaceController.m */; };
+		083775881B21753F00F40B90 /* GlanceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 083775871B21753F00F40B90 /* GlanceController.m */; };
+		0837758A1B21753F00F40B90 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 083775891B21753F00F40B90 /* Images.xcassets */; };
+		0837758E1B21753F00F40B90 /* Headlines WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 0837758D1B21753F00F40B90 /* Headlines WatchKit App.app */; };
+		083775961B21753F00F40B90 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 083775941B21753F00F40B90 /* Interface.storyboard */; };
+		083775981B21753F00F40B90 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 083775971B21753F00F40B90 /* Images.xcassets */; };
+		0837759B1B21753F00F40B90 /* Headlines WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 0837757F1B21753F00F40B90 /* Headlines WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		083775A51B21863500F40B90 /* Feed.m in Sources */ = {isa = PBXBuildFile; fileRef = 083775A41B21863500F40B90 /* Feed.m */; };
+		083775A61B21863500F40B90 /* Feed.m in Sources */ = {isa = PBXBuildFile; fileRef = 083775A41B21863500F40B90 /* Feed.m */; };
+		083775A91B21881C00F40B90 /* Article.m in Sources */ = {isa = PBXBuildFile; fileRef = 083775A81B21881C00F40B90 /* Article.m */; };
+		083775AA1B21881C00F40B90 /* Article.m in Sources */ = {isa = PBXBuildFile; fileRef = 083775A81B21881C00F40B90 /* Article.m */; };
+		083775AE1B2198D400F40B90 /* FeedSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 083775AD1B2198D400F40B90 /* FeedSource.m */; };
+		083775AF1B2198D400F40B90 /* FeedSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 083775AD1B2198D400F40B90 /* FeedSource.m */; };
+		08BC6A931B22E09700DB7040 /* FeedPickerTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08BC6A921B22E09700DB7040 /* FeedPickerTableViewController.m */; };
+		08BC6A961B22FDFD00DB7040 /* _Feed.m in Sources */ = {isa = PBXBuildFile; fileRef = 08BC6A951B22FDFD00DB7040 /* _Feed.m */; };
+		08BC6A971B22FDFD00DB7040 /* _Feed.m in Sources */ = {isa = PBXBuildFile; fileRef = 08BC6A951B22FDFD00DB7040 /* _Feed.m */; };
+		08BC6A9A1B23112E00DB7040 /* HeadlineRowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08BC6A991B23112E00DB7040 /* HeadlineRowController.m */; };
+		08BC6A9B1B23C20200DB7040 /* Headlines.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 083775561B21750900F40B90 /* Headlines.xcdatamodeld */; };
+		6204B8E08CBEC9158FED9618 /* Pods_Headlines_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761026002C6900B2A137B3A9 /* Pods_Headlines_WatchKit_Extension.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		9EDF515186585C1F578231B4 /* Pods_Headlines.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BF70101FA2ED6D8AB92B1AF /* Pods_Headlines.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,17 +48,48 @@
 			remoteGlobalIDString = 0837754B1B21750900F40B90;
 			remoteInfo = Headlines;
 		};
+		0837758F1B21753F00F40B90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 083775441B21750900F40B90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0837758C1B21753F00F40B90;
+			remoteInfo = "Headlines WatchKit App";
+		};
+		083775991B21753F00F40B90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 083775441B21750900F40B90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0837757E1B21753F00F40B90;
+			remoteInfo = "Headlines WatchKit Extension";
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		083775A21B21753F00F40B90 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				0837759B1B21753F00F40B90 /* Headlines WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		076D937F3D896CD0D244A501 /* Pods-Headlines.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Headlines.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Headlines/Pods-Headlines.debug.xcconfig"; sourceTree = "<group>"; };
+		082FB62A1B2262BA0064A09A /* Ticker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ticker.h; sourceTree = "<group>"; };
+		082FB62B1B2262BA0064A09A /* Ticker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ticker.m; sourceTree = "<group>"; };
 		0837754C1B21750900F40B90 /* Headlines.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Headlines.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		083775501B21750900F40B90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		083775511B21750900F40B90 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		083775531B21750900F40B90 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		083775541B21750900F40B90 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		083775571B21750900F40B90 /* Headlines.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Headlines.xcdatamodel; sourceTree = "<group>"; };
-		083775591B21750900F40B90 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		0837755A1B21750900F40B90 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		083775591B21750900F40B90 /* FeedTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeedTableViewController.h; sourceTree = "<group>"; };
+		0837755A1B21750900F40B90 /* FeedTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeedTableViewController.m; sourceTree = "<group>"; };
 		0837755C1B21750900F40B90 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		0837755D1B21750900F40B90 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		083775601B21750900F40B90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -45,6 +98,36 @@
 		0837756B1B21750900F40B90 /* HeadlinesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeadlinesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		083775701B21750900F40B90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		083775711B21750900F40B90 /* HeadlinesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeadlinesTests.m; sourceTree = "<group>"; };
+		0837757F1B21753F00F40B90 /* Headlines WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Headlines WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		083775821B21753F00F40B90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		083775831B21753F00F40B90 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		083775841B21753F00F40B90 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		083775861B21753F00F40B90 /* GlanceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlanceController.h; sourceTree = "<group>"; };
+		083775871B21753F00F40B90 /* GlanceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GlanceController.m; sourceTree = "<group>"; };
+		083775891B21753F00F40B90 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0837758D1B21753F00F40B90 /* Headlines WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Headlines WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		083775931B21753F00F40B90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		083775951B21753F00F40B90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		083775971B21753F00F40B90 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		083775A31B21863500F40B90 /* Feed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Feed.h; sourceTree = "<group>"; };
+		083775A41B21863500F40B90 /* Feed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Feed.m; sourceTree = "<group>"; };
+		083775A81B21881C00F40B90 /* Article.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Article.m; sourceTree = "<group>"; };
+		083775AB1B21883000F40B90 /* Article.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Article.h; sourceTree = "<group>"; };
+		083775AC1B2198D400F40B90 /* FeedSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedSource.h; sourceTree = "<group>"; };
+		083775AD1B2198D400F40B90 /* FeedSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedSource.m; sourceTree = "<group>"; };
+		08BC6A911B22E09700DB7040 /* FeedPickerTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedPickerTableViewController.h; sourceTree = "<group>"; };
+		08BC6A921B22E09700DB7040 /* FeedPickerTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedPickerTableViewController.m; sourceTree = "<group>"; };
+		08BC6A941B22FDFC00DB7040 /* _Feed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _Feed.h; sourceTree = "<group>"; };
+		08BC6A951B22FDFD00DB7040 /* _Feed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _Feed.m; sourceTree = "<group>"; };
+		08BC6A981B23112E00DB7040 /* HeadlineRowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeadlineRowController.h; sourceTree = "<group>"; };
+		08BC6A991B23112E00DB7040 /* HeadlineRowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeadlineRowController.m; sourceTree = "<group>"; };
+		08BC6A9C1B23C3C500DB7040 /* Headlines.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Headlines.entitlements; sourceTree = "<group>"; };
+		08BC6A9D1B23C4CA00DB7040 /* Headlines WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Headlines WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+		3BF70101FA2ED6D8AB92B1AF /* Pods_Headlines.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Headlines.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FBFCECE7B4E1873D1383E82 /* Pods-Headlines.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Headlines.release.xcconfig"; path = "Pods/Target Support Files/Pods-Headlines/Pods-Headlines.release.xcconfig"; sourceTree = "<group>"; };
+		400C83E13F40A2469472E061 /* Pods-Headlines WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Headlines WatchKit Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Headlines WatchKit Extension/Pods-Headlines WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		761026002C6900B2A137B3A9 /* Pods_Headlines_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Headlines_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C979BD9AF463AB69D7013AD9 /* Pods-Headlines WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Headlines WatchKit Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-Headlines WatchKit Extension/Pods-Headlines WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +135,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EDF515186585C1F578231B4 /* Pods_Headlines.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +143,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0837757C1B21753F00F40B90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6204B8E08CBEC9158FED9618 /* Pods_Headlines_WatchKit_Extension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,7 +162,11 @@
 			children = (
 				0837754E1B21750900F40B90 /* Headlines */,
 				0837756E1B21750900F40B90 /* HeadlinesTests */,
+				083775801B21753F00F40B90 /* Headlines WatchKit Extension */,
+				083775911B21753F00F40B90 /* Headlines WatchKit App */,
 				0837754D1B21750900F40B90 /* Products */,
+				33DC52067DEF3F708298E22A /* Pods */,
+				DBE492B6319EFA2E26686DED /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +175,8 @@
 			children = (
 				0837754C1B21750900F40B90 /* Headlines.app */,
 				0837756B1B21750900F40B90 /* HeadlinesTests.xctest */,
+				0837757F1B21753F00F40B90 /* Headlines WatchKit Extension.appex */,
+				0837758D1B21753F00F40B90 /* Headlines WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -86,16 +184,21 @@
 		0837754E1B21750900F40B90 /* Headlines */ = {
 			isa = PBXGroup;
 			children = (
+				08BC6A9C1B23C3C500DB7040 /* Headlines.entitlements */,
 				083775531B21750900F40B90 /* AppDelegate.h */,
 				083775541B21750900F40B90 /* AppDelegate.m */,
-				083775591B21750900F40B90 /* MasterViewController.h */,
-				0837755A1B21750900F40B90 /* MasterViewController.m */,
+				083775591B21750900F40B90 /* FeedTableViewController.h */,
+				0837755A1B21750900F40B90 /* FeedTableViewController.m */,
+				08BC6A911B22E09700DB7040 /* FeedPickerTableViewController.h */,
+				08BC6A921B22E09700DB7040 /* FeedPickerTableViewController.m */,
 				0837755C1B21750900F40B90 /* DetailViewController.h */,
 				0837755D1B21750900F40B90 /* DetailViewController.m */,
 				0837755F1B21750900F40B90 /* Main.storyboard */,
 				083775621B21750900F40B90 /* Images.xcassets */,
 				083775641B21750900F40B90 /* LaunchScreen.xib */,
 				083775561B21750900F40B90 /* Headlines.xcdatamodeld */,
+				083775B01B2198DB00F40B90 /* Objects */,
+				083775A71B21865000F40B90 /* Models */,
 				0837754F1B21750900F40B90 /* Supporting Files */,
 			);
 			path = Headlines;
@@ -127,6 +230,92 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		083775801B21753F00F40B90 /* Headlines WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				08BC6A9D1B23C4CA00DB7040 /* Headlines WatchKit Extension.entitlements */,
+				083775831B21753F00F40B90 /* InterfaceController.h */,
+				083775841B21753F00F40B90 /* InterfaceController.m */,
+				083775861B21753F00F40B90 /* GlanceController.h */,
+				083775871B21753F00F40B90 /* GlanceController.m */,
+				08BC6A981B23112E00DB7040 /* HeadlineRowController.h */,
+				08BC6A991B23112E00DB7040 /* HeadlineRowController.m */,
+				083775891B21753F00F40B90 /* Images.xcassets */,
+				083775811B21753F00F40B90 /* Supporting Files */,
+			);
+			path = "Headlines WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		083775811B21753F00F40B90 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				083775821B21753F00F40B90 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		083775911B21753F00F40B90 /* Headlines WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				083775941B21753F00F40B90 /* Interface.storyboard */,
+				083775971B21753F00F40B90 /* Images.xcassets */,
+				083775921B21753F00F40B90 /* Supporting Files */,
+			);
+			path = "Headlines WatchKit App";
+			sourceTree = "<group>";
+		};
+		083775921B21753F00F40B90 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				083775931B21753F00F40B90 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		083775A71B21865000F40B90 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				083775A31B21863500F40B90 /* Feed.h */,
+				083775A41B21863500F40B90 /* Feed.m */,
+				08BC6A941B22FDFC00DB7040 /* _Feed.h */,
+				08BC6A951B22FDFD00DB7040 /* _Feed.m */,
+				083775AB1B21883000F40B90 /* Article.h */,
+				083775A81B21881C00F40B90 /* Article.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		083775B01B2198DB00F40B90 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				083775AC1B2198D400F40B90 /* FeedSource.h */,
+				083775AD1B2198D400F40B90 /* FeedSource.m */,
+				082FB62A1B2262BA0064A09A /* Ticker.h */,
+				082FB62B1B2262BA0064A09A /* Ticker.m */,
+			);
+			name = Objects;
+			sourceTree = "<group>";
+		};
+		33DC52067DEF3F708298E22A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				076D937F3D896CD0D244A501 /* Pods-Headlines.debug.xcconfig */,
+				3FBFCECE7B4E1873D1383E82 /* Pods-Headlines.release.xcconfig */,
+				400C83E13F40A2469472E061 /* Pods-Headlines WatchKit Extension.debug.xcconfig */,
+				C979BD9AF463AB69D7013AD9 /* Pods-Headlines WatchKit Extension.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DBE492B6319EFA2E26686DED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3BF70101FA2ED6D8AB92B1AF /* Pods_Headlines.framework */,
+				761026002C6900B2A137B3A9 /* Pods_Headlines_WatchKit_Extension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,13 +323,18 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 083775751B21750900F40B90 /* Build configuration list for PBXNativeTarget "Headlines" */;
 			buildPhases = (
+				C82079C5B63BFE5699182BEA /* Check Pods Manifest.lock */,
 				083775481B21750900F40B90 /* Sources */,
 				083775491B21750900F40B90 /* Frameworks */,
 				0837754A1B21750900F40B90 /* Resources */,
+				083775A21B21753F00F40B90 /* Embed App Extensions */,
+				D8A49A3F54684781CDE587EC /* Embed Pods Frameworks */,
+				19D2230032E63A890B7B6FD1 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				0837759A1B21753F00F40B90 /* PBXTargetDependency */,
 			);
 			name = Headlines;
 			productName = Headlines;
@@ -165,6 +359,41 @@
 			productReference = 0837756B1B21750900F40B90 /* HeadlinesTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		0837757E1B21753F00F40B90 /* Headlines WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0837759F1B21753F00F40B90 /* Build configuration list for PBXNativeTarget "Headlines WatchKit Extension" */;
+			buildPhases = (
+				CD92B0E12608DF04BB5803A4 /* Check Pods Manifest.lock */,
+				0837757B1B21753F00F40B90 /* Sources */,
+				0837757C1B21753F00F40B90 /* Frameworks */,
+				0837757D1B21753F00F40B90 /* Resources */,
+				7D80BF448A36303A71A0E101 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				083775901B21753F00F40B90 /* PBXTargetDependency */,
+			);
+			name = "Headlines WatchKit Extension";
+			productName = "Headlines WatchKit Extension";
+			productReference = 0837757F1B21753F00F40B90 /* Headlines WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		0837758C1B21753F00F40B90 /* Headlines WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0837759C1B21753F00F40B90 /* Build configuration list for PBXNativeTarget "Headlines WatchKit App" */;
+			buildPhases = (
+				0837758B1B21753F00F40B90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Headlines WatchKit App";
+			productName = "Headlines WatchKit App";
+			productReference = 0837758D1B21753F00F40B90 /* Headlines WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -176,10 +405,28 @@
 				TargetAttributes = {
 					0837754B1B21750900F40B90 = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = 7P78LN5MWN;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					0837756A1B21750900F40B90 = {
 						CreatedOnToolsVersion = 6.3.2;
 						TestTargetID = 0837754B1B21750900F40B90;
+					};
+					0837757E1B21753F00F40B90 = {
+						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = 7P78LN5MWN;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					0837758C1B21753F00F40B90 = {
+						CreatedOnToolsVersion = 6.3.2;
 					};
 				};
 			};
@@ -198,6 +445,8 @@
 			targets = (
 				0837754B1B21750900F40B90 /* Headlines */,
 				0837756A1B21750900F40B90 /* HeadlinesTests */,
+				0837757E1B21753F00F40B90 /* Headlines WatchKit Extension */,
+				0837758C1B21753F00F40B90 /* Headlines WatchKit App */,
 			);
 		};
 /* End PBXProject section */
@@ -220,7 +469,103 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0837757D1B21753F00F40B90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0837758E1B21753F00F40B90 /* Headlines WatchKit App.app in Resources */,
+				0837758A1B21753F00F40B90 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0837758B1B21753F00F40B90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				083775961B21753F00F40B90 /* Interface.storyboard in Resources */,
+				083775981B21753F00F40B90 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		19D2230032E63A890B7B6FD1 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Headlines/Pods-Headlines-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D80BF448A36303A71A0E101 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Headlines WatchKit Extension/Pods-Headlines WatchKit Extension-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C82079C5B63BFE5699182BEA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CD92B0E12608DF04BB5803A4 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D8A49A3F54684781CDE587EC /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Headlines/Pods-Headlines-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		083775481B21750900F40B90 /* Sources */ = {
@@ -228,9 +573,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				0837755E1B21750900F40B90 /* DetailViewController.m in Sources */,
-				0837755B1B21750900F40B90 /* MasterViewController.m in Sources */,
+				0837755B1B21750900F40B90 /* FeedTableViewController.m in Sources */,
+				083775A91B21881C00F40B90 /* Article.m in Sources */,
+				08BC6A931B22E09700DB7040 /* FeedPickerTableViewController.m in Sources */,
 				083775551B21750900F40B90 /* AppDelegate.m in Sources */,
+				083775AE1B2198D400F40B90 /* FeedSource.m in Sources */,
+				083775A51B21863500F40B90 /* Feed.m in Sources */,
+				08BC6A961B22FDFD00DB7040 /* _Feed.m in Sources */,
 				083775581B21750900F40B90 /* Headlines.xcdatamodeld in Sources */,
+				082FB62C1B2262BA0064A09A /* Ticker.m in Sources */,
 				083775521B21750900F40B90 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -243,6 +594,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0837757B1B21753F00F40B90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08BC6A9A1B23112E00DB7040 /* HeadlineRowController.m in Sources */,
+				083775AA1B21881C00F40B90 /* Article.m in Sources */,
+				082FB62D1B2262BA0064A09A /* Ticker.m in Sources */,
+				083775851B21753F00F40B90 /* InterfaceController.m in Sources */,
+				083775AF1B2198D400F40B90 /* FeedSource.m in Sources */,
+				083775A61B21863500F40B90 /* Feed.m in Sources */,
+				08BC6A971B22FDFD00DB7040 /* _Feed.m in Sources */,
+				08BC6A9B1B23C20200DB7040 /* Headlines.xcdatamodeld in Sources */,
+				083775881B21753F00F40B90 /* GlanceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -250,6 +617,16 @@
 			isa = PBXTargetDependency;
 			target = 0837754B1B21750900F40B90 /* Headlines */;
 			targetProxy = 0837756C1B21750900F40B90 /* PBXContainerItemProxy */;
+		};
+		083775901B21753F00F40B90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0837758C1B21753F00F40B90 /* Headlines WatchKit App */;
+			targetProxy = 0837758F1B21753F00F40B90 /* PBXContainerItemProxy */;
+		};
+		0837759A1B21753F00F40B90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0837757E1B21753F00F40B90 /* Headlines WatchKit Extension */;
+			targetProxy = 083775991B21753F00F40B90 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -268,6 +645,14 @@
 				083775651B21750900F40B90 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		083775941B21753F00F40B90 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				083775951B21753F00F40B90 /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -355,21 +740,31 @@
 		};
 		083775761B21750900F40B90 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 076D937F3D896CD0D244A501 /* Pods-Headlines.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Headlines/Headlines.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Headlines/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		083775771B21750900F40B90 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FBFCECE7B4E1873D1383E82 /* Pods-Headlines.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Headlines/Headlines.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Headlines/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -407,6 +802,68 @@
 			};
 			name = Release;
 		};
+		0837759D1B21753F00F40B90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = Headlines_WatchKit_Extension;
+				INFOPLIST_FILE = "Headlines WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		0837759E1B21753F00F40B90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = Headlines_WatchKit_Extension;
+				INFOPLIST_FILE = "Headlines WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		083775A01B21753F00F40B90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 400C83E13F40A2469472E061 /* Pods-Headlines WatchKit Extension.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Headlines WatchKit Extension/Headlines WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Headlines WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		083775A11B21753F00F40B90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C979BD9AF463AB69D7013AD9 /* Pods-Headlines WatchKit Extension.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Headlines WatchKit Extension/Headlines WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Headlines WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -426,6 +883,7 @@
 				083775771B21750900F40B90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		083775781B21750900F40B90 /* Build configuration list for PBXNativeTarget "HeadlinesTests" */ = {
 			isa = XCConfigurationList;
@@ -434,6 +892,25 @@
 				0837757A1B21750900F40B90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0837759C1B21753F00F40B90 /* Build configuration list for PBXNativeTarget "Headlines WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0837759D1B21753F00F40B90 /* Debug */,
+				0837759E1B21753F00F40B90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0837759F1B21753F00F40B90 /* Build configuration list for PBXNativeTarget "Headlines WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				083775A01B21753F00F40B90 /* Debug */,
+				083775A11B21753F00F40B90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

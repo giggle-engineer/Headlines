@@ -4,6 +4,16 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Glance - Headlines WatchKit App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>Headlines WatchKit App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>Headlines.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -18,6 +28,11 @@
 			<true/>
 		</dict>
 		<key>0837756A1B21750900F40B90</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0837758C1B21753F00F40B90</key>
 		<dict>
 			<key>primary</key>
 			<true/>
