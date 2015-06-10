@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "FeedTableViewController.h"
+#import "Article.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +19,20 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    return YES;
+}
+
+- (BOOL)application:(UIApplication *)application continueUserActivity:(NSUserActivity *)userActivity restorationHandler:(void (^)(NSArray *))restorationHandler
+{
+    // pass the handoff payload somehow to the view controller
+    UINavigationController *navigationController = (UINavigationController *)self.window.rootViewController;
+    FeedTableViewController *feedTableViewController = (FeedTableViewController*)navigationController.topViewController;
+    NSLog(@"UserActivity:%@", [[userActivity userInfo] description]);
+    Article *article = [Article new];
+    [article setURL:[[userActivity userInfo] objectForKey:@"URL"]];
+    [article setHeadline:[[userActivity userInfo] objectForKey:@"headline"]];
+    [feedTableViewController setHandoffArticle:article];
+    [feedTableViewController handoffArticleToReader];
     return YES;
 }
 

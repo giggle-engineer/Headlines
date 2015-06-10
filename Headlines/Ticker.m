@@ -12,7 +12,7 @@
 
 - (void)getHeadlineForFeed:(Feed *)feed handler:(headlineHandler)handler
 {
-    NSLog(@"loading feed");
+//    NSLog(@"loading feed");
     MWFeedParser *feedParser = [[MWFeedParser alloc] initWithFeedURL:[NSURL URLWithString:[feed url]]];
     
     id dynamicDelegate;
@@ -40,7 +40,7 @@
 {
     NSMutableArray *headlines = [NSMutableArray new];
     
-    FeedSource *feedSource = [FeedSource sharedFeedSource];
+    FeedSource *feedSource = [[FeedSource alloc] init];
     NSArray *feeds = [[feedSource fetchedResultsController] fetchedObjects];
     
     // create a group
@@ -53,7 +53,7 @@
             if(headline)
             {
                 [headlines addObject:headline];
-                NSLog(@"added headline");
+//                NSLog(@"added headline");
             }
             dispatch_group_leave(group);
         }];

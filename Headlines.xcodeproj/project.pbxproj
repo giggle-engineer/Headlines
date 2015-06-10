@@ -13,7 +13,7 @@
 		083775551B21750900F40B90 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 083775541B21750900F40B90 /* AppDelegate.m */; };
 		083775581B21750900F40B90 /* Headlines.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 083775561B21750900F40B90 /* Headlines.xcdatamodeld */; };
 		0837755B1B21750900F40B90 /* FeedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0837755A1B21750900F40B90 /* FeedTableViewController.m */; };
-		0837755E1B21750900F40B90 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0837755D1B21750900F40B90 /* DetailViewController.m */; };
+		0837755E1B21750900F40B90 /* ReadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0837755D1B21750900F40B90 /* ReadViewController.m */; };
 		083775611B21750900F40B90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0837755F1B21750900F40B90 /* Main.storyboard */; };
 		083775631B21750900F40B90 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 083775621B21750900F40B90 /* Images.xcassets */; };
 		083775661B21750900F40B90 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 083775641B21750900F40B90 /* LaunchScreen.xib */; };
@@ -36,8 +36,9 @@
 		08BC6A971B22FDFD00DB7040 /* _Feed.m in Sources */ = {isa = PBXBuildFile; fileRef = 08BC6A951B22FDFD00DB7040 /* _Feed.m */; };
 		08BC6A9A1B23112E00DB7040 /* HeadlineRowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08BC6A991B23112E00DB7040 /* HeadlineRowController.m */; };
 		08BC6A9B1B23C20200DB7040 /* Headlines.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 083775561B21750900F40B90 /* Headlines.xcdatamodeld */; };
-		6204B8E08CBEC9158FED9618 /* Pods_Headlines_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761026002C6900B2A137B3A9 /* Pods_Headlines_WatchKit_Extension.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		9EDF515186585C1F578231B4 /* Pods_Headlines.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BF70101FA2ED6D8AB92B1AF /* Pods_Headlines.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		08E315391B23EC9200E7000B /* HandoffController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E315381B23EC9200E7000B /* HandoffController.m */; };
+		39D872EA50291ADB4CEDD485 /* libPods-Headlines WatchKit Extension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D187D6C2E8EBC02DEC8DE84A /* libPods-Headlines WatchKit Extension.a */; };
+		3F5717D732BEAD04244A0F08 /* libPods-Headlines.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CBC8CE05B0364B8FEA8F0018 /* libPods-Headlines.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,8 +91,8 @@
 		083775571B21750900F40B90 /* Headlines.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Headlines.xcdatamodel; sourceTree = "<group>"; };
 		083775591B21750900F40B90 /* FeedTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeedTableViewController.h; sourceTree = "<group>"; };
 		0837755A1B21750900F40B90 /* FeedTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeedTableViewController.m; sourceTree = "<group>"; };
-		0837755C1B21750900F40B90 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		0837755D1B21750900F40B90 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		0837755C1B21750900F40B90 /* ReadViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReadViewController.h; sourceTree = "<group>"; };
+		0837755D1B21750900F40B90 /* ReadViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReadViewController.m; sourceTree = "<group>"; };
 		083775601B21750900F40B90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		083775621B21750900F40B90 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		083775651B21750900F40B90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -123,11 +124,13 @@
 		08BC6A991B23112E00DB7040 /* HeadlineRowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeadlineRowController.m; sourceTree = "<group>"; };
 		08BC6A9C1B23C3C500DB7040 /* Headlines.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Headlines.entitlements; sourceTree = "<group>"; };
 		08BC6A9D1B23C4CA00DB7040 /* Headlines WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Headlines WatchKit Extension.entitlements"; sourceTree = "<group>"; };
-		3BF70101FA2ED6D8AB92B1AF /* Pods_Headlines.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Headlines.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		08E315371B23EC9200E7000B /* HandoffController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HandoffController.h; sourceTree = "<group>"; };
+		08E315381B23EC9200E7000B /* HandoffController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HandoffController.m; sourceTree = "<group>"; };
 		3FBFCECE7B4E1873D1383E82 /* Pods-Headlines.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Headlines.release.xcconfig"; path = "Pods/Target Support Files/Pods-Headlines/Pods-Headlines.release.xcconfig"; sourceTree = "<group>"; };
 		400C83E13F40A2469472E061 /* Pods-Headlines WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Headlines WatchKit Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Headlines WatchKit Extension/Pods-Headlines WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
-		761026002C6900B2A137B3A9 /* Pods_Headlines_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Headlines_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C979BD9AF463AB69D7013AD9 /* Pods-Headlines WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Headlines WatchKit Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-Headlines WatchKit Extension/Pods-Headlines WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
+		CBC8CE05B0364B8FEA8F0018 /* libPods-Headlines.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Headlines.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D187D6C2E8EBC02DEC8DE84A /* libPods-Headlines WatchKit Extension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Headlines WatchKit Extension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,7 +138,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9EDF515186585C1F578231B4 /* Pods_Headlines.framework in Frameworks */,
+				3F5717D732BEAD04244A0F08 /* libPods-Headlines.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,7 +153,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6204B8E08CBEC9158FED9618 /* Pods_Headlines_WatchKit_Extension.framework in Frameworks */,
+				39D872EA50291ADB4CEDD485 /* libPods-Headlines WatchKit Extension.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,19 +187,10 @@
 		0837754E1B21750900F40B90 /* Headlines */ = {
 			isa = PBXGroup;
 			children = (
-				08BC6A9C1B23C3C500DB7040 /* Headlines.entitlements */,
 				083775531B21750900F40B90 /* AppDelegate.h */,
 				083775541B21750900F40B90 /* AppDelegate.m */,
-				083775591B21750900F40B90 /* FeedTableViewController.h */,
-				0837755A1B21750900F40B90 /* FeedTableViewController.m */,
-				08BC6A911B22E09700DB7040 /* FeedPickerTableViewController.h */,
-				08BC6A921B22E09700DB7040 /* FeedPickerTableViewController.m */,
-				0837755C1B21750900F40B90 /* DetailViewController.h */,
-				0837755D1B21750900F40B90 /* DetailViewController.m */,
-				0837755F1B21750900F40B90 /* Main.storyboard */,
-				083775621B21750900F40B90 /* Images.xcassets */,
-				083775641B21750900F40B90 /* LaunchScreen.xib */,
-				083775561B21750900F40B90 /* Headlines.xcdatamodeld */,
+				08E315331B23EACD00E7000B /* View Controllers */,
+				08E315341B23EADA00E7000B /* Assets */,
 				083775B01B2198DB00F40B90 /* Objects */,
 				083775A71B21865000F40B90 /* Models */,
 				0837754F1B21750900F40B90 /* Supporting Files */,
@@ -233,14 +227,8 @@
 		083775801B21753F00F40B90 /* Headlines WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				08BC6A9D1B23C4CA00DB7040 /* Headlines WatchKit Extension.entitlements */,
-				083775831B21753F00F40B90 /* InterfaceController.h */,
-				083775841B21753F00F40B90 /* InterfaceController.m */,
-				083775861B21753F00F40B90 /* GlanceController.h */,
-				083775871B21753F00F40B90 /* GlanceController.m */,
-				08BC6A981B23112E00DB7040 /* HeadlineRowController.h */,
-				08BC6A991B23112E00DB7040 /* HeadlineRowController.m */,
-				083775891B21753F00F40B90 /* Images.xcassets */,
+				08E315351B23EB0600E7000B /* View Controllers */,
+				08E315361B23EB2200E7000B /* Assets */,
 				083775811B21753F00F40B90 /* Supporting Files */,
 			);
 			path = "Headlines WatchKit Extension";
@@ -296,6 +284,55 @@
 			name = Objects;
 			sourceTree = "<group>";
 		};
+		08E315331B23EACD00E7000B /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				083775591B21750900F40B90 /* FeedTableViewController.h */,
+				0837755A1B21750900F40B90 /* FeedTableViewController.m */,
+				0837755C1B21750900F40B90 /* ReadViewController.h */,
+				0837755D1B21750900F40B90 /* ReadViewController.m */,
+				08BC6A911B22E09700DB7040 /* FeedPickerTableViewController.h */,
+				08BC6A921B22E09700DB7040 /* FeedPickerTableViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		08E315341B23EADA00E7000B /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				08BC6A9C1B23C3C500DB7040 /* Headlines.entitlements */,
+				0837755F1B21750900F40B90 /* Main.storyboard */,
+				083775621B21750900F40B90 /* Images.xcassets */,
+				083775641B21750900F40B90 /* LaunchScreen.xib */,
+				083775561B21750900F40B90 /* Headlines.xcdatamodeld */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		08E315351B23EB0600E7000B /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				083775831B21753F00F40B90 /* InterfaceController.h */,
+				083775841B21753F00F40B90 /* InterfaceController.m */,
+				083775861B21753F00F40B90 /* GlanceController.h */,
+				083775871B21753F00F40B90 /* GlanceController.m */,
+				08E315371B23EC9200E7000B /* HandoffController.h */,
+				08E315381B23EC9200E7000B /* HandoffController.m */,
+				08BC6A981B23112E00DB7040 /* HeadlineRowController.h */,
+				08BC6A991B23112E00DB7040 /* HeadlineRowController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		08E315361B23EB2200E7000B /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				08BC6A9D1B23C4CA00DB7040 /* Headlines WatchKit Extension.entitlements */,
+				083775891B21753F00F40B90 /* Images.xcassets */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
 		33DC52067DEF3F708298E22A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -310,8 +347,8 @@
 		DBE492B6319EFA2E26686DED /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3BF70101FA2ED6D8AB92B1AF /* Pods_Headlines.framework */,
-				761026002C6900B2A137B3A9 /* Pods_Headlines_WatchKit_Extension.framework */,
+				CBC8CE05B0364B8FEA8F0018 /* libPods-Headlines.a */,
+				D187D6C2E8EBC02DEC8DE84A /* libPods-Headlines WatchKit Extension.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -328,7 +365,6 @@
 				083775491B21750900F40B90 /* Frameworks */,
 				0837754A1B21750900F40B90 /* Resources */,
 				083775A21B21753F00F40B90 /* Embed App Extensions */,
-				D8A49A3F54684781CDE587EC /* Embed Pods Frameworks */,
 				19D2230032E63A890B7B6FD1 /* Copy Pods Resources */,
 			);
 			buildRules = (
@@ -550,21 +586,6 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		D8A49A3F54684781CDE587EC /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Headlines/Pods-Headlines-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -572,7 +593,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0837755E1B21750900F40B90 /* DetailViewController.m in Sources */,
+				0837755E1B21750900F40B90 /* ReadViewController.m in Sources */,
 				0837755B1B21750900F40B90 /* FeedTableViewController.m in Sources */,
 				083775A91B21881C00F40B90 /* Article.m in Sources */,
 				08BC6A931B22E09700DB7040 /* FeedPickerTableViewController.m in Sources */,
@@ -600,6 +621,7 @@
 			files = (
 				08BC6A9A1B23112E00DB7040 /* HeadlineRowController.m in Sources */,
 				083775AA1B21881C00F40B90 /* Article.m in Sources */,
+				08E315391B23EC9200E7000B /* HandoffController.m in Sources */,
 				082FB62D1B2262BA0064A09A /* Ticker.m in Sources */,
 				083775851B21753F00F40B90 /* InterfaceController.m in Sources */,
 				083775AF1B2198D400F40B90 /* FeedSource.m in Sources */,

@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <CoreData/CoreData.h>
+#import "Article.h"
 #import "FeedSource.h"
 
 @interface FeedTableViewController : UITableViewController <NSFetchedResultsControllerDelegate>
@@ -15,6 +16,10 @@
     FeedSource *feedSource;
     NSURL *sourceURL;
 }
+
+@property Article *handoffArticle;
+
+- (void)handoffArticleToReader;
 
 
 @end

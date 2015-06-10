@@ -13,6 +13,7 @@
 @interface InterfaceController : WKInterfaceController
 {
     Ticker *ticker;
+    NSArray *headlines;
 }
 
 @property IBOutlet WKInterfaceTable *headlineTable;

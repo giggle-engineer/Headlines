@@ -5,20 +5,23 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="7701"/>
     </dependencies>
     <scenes>
-        <!--Interface Controller-->
+        <!--Headlines-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController">
+                <controller title="Headlines" id="AgC-eL-Hgc" customClass="InterfaceController">
                     <items>
                         <table alignment="left" id="Jgm-16-CfC">
                             <items>
-                                <tableRow id="rcZ-wW-8HO" customClass="HeadlineRowController">
+                                <tableRow identifier="Headlines" id="rcZ-wW-8HO" customClass="HeadlineRowController">
                                     <group key="rootItem" width="1" alignment="left" id="akS-bs-ty1">
                                         <items>
-                                            <label alignment="left" verticalAlignment="center" text="Label" textAlignment="center" numberOfLines="2" id="i1n-7t-KoD">
+                                            <label alignment="left" verticalAlignment="center" text="Loading" numberOfLines="2" id="i1n-7t-KoD">
                                                 <fontDescription key="font" style="UICTFontTextStyleFootnote"/>
                                             </label>
                                         </items>
+                                        <connections>
+                                            <segue destination="PdW-Cf-nce" kind="push" identifier="test" id="3l4-Gb-coS"/>
+                                        </connections>
                                     </group>
                                     <connections>
                                         <outlet property="headline" destination="i1n-7t-KoD" id="xYV-1U-Vih"/>
@@ -34,6 +37,29 @@
             </objects>
             <point key="canvasLocation" x="164" y="217"/>
         </scene>
+        <!--Handoff-->
+        <scene sceneID="jD9-fa-z1r">
+            <objects>
+                <controller identifier="Handoff" title="Headlines" id="PdW-Cf-nce" userLabel="Handoff" customClass="HandoffController">
+                    <items>
+                        <label alignment="left" text="Headline" id="Qfi-Dz-i0i"/>
+                        <label alignment="left" numberOfLines="4" id="ozk-EL-IsT">
+                            <string key="text">Label
+Label Label
+Label</string>
+                            <fontDescription key="font" style="UICTFontTextStyleCaption1"/>
+                        </label>
+                        <separator alignment="left" id="mCB-ew-5b2"/>
+                        <imageView alignment="center" image="handoff" id="hcz-WD-F6U"/>
+                    </items>
+                    <connections>
+                        <outlet property="headline" destination="Qfi-Dz-i0i" id="3WN-yk-jpt"/>
+                        <outlet property="lead" destination="ozk-EL-IsT" id="kJc-jD-iqm"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="367" y="217"/>
+        </scene>
         <!--Glance Interface Controller-->
         <scene sceneID="rjY-Ar-IMT">
             <objects>
@@ -41,6 +67,7 @@
                     <items>
                         <group alignment="left" id="gv7-I2-MZq">
                             <items>
+                                <imageView width="40" height="40" alignment="left" image="rss" id="23d-Ud-0X0"/>
                                 <label width="133" alignment="left" verticalAlignment="center" text="Headlines" id="5UW-fu-2rB">
                                     <fontDescription key="font" style="UICTFontTextStyleCaption1"/>
                                 </label>
@@ -50,10 +77,10 @@
                             <items>
                                 <table alignment="left" id="fTt-9u-lh6">
                                     <items>
-                                        <tableRow id="tP7-RK-AhG" customClass="HeadlineRowController">
+                                        <tableRow identifier="Headlines" id="tP7-RK-AhG" customClass="HeadlineRowController">
                                             <group key="rootItem" width="1" height="30" alignment="left" id="h2N-bo-NfN">
                                                 <items>
-                                                    <label alignment="left" verticalAlignment="center" text="Label" numberOfLines="2" id="EFA-aH-B1U">
+                                                    <label alignment="left" verticalAlignment="center" text="Loading..." numberOfLines="2" id="EFA-aH-B1U">
                                                         <fontDescription key="font" style="UICTFontTextStyleFootnote"/>
                                                     </label>
                                                 </items>

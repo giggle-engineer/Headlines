@@ -7,7 +7,7 @@
 //
 
 #import "FeedTableViewController.h"
-#import "DetailViewController.h"
+#import "ReadViewController.h"
 #import "FeedPickerTableViewController.h"
 #import "Ticker.h"
 
@@ -16,6 +16,7 @@
 @end
 
 @implementation FeedTableViewController
+@synthesize handoffArticle;
 
 - (void)awakeFromNib {
     [super awakeFromNib];
@@ -37,10 +38,19 @@
 
 #pragma mark - Segues
 
+- (void)handoffArticleToReader
+{
+    [self performSegueWithIdentifier:@"read" sender:self];
+}
+
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     if ([[segue identifier] isEqualToString:@"feedPicker"]) {
         FeedPickerTableViewController *feedPickerTableViewController = [segue destinationViewController];
         [feedPickerTableViewController setUrl:sourceURL];
+    }
+    if ([[segue identifier] isEqualToString:@"read"]) {
+        ReadViewController *readViewController = [segue destinationViewController];
+        [readViewController setArticle:handoffArticle];
     }
 }
 

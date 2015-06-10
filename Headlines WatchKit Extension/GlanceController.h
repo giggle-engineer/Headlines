@@ -13,6 +13,7 @@
 @interface GlanceController : WKInterfaceController
 {
     Ticker *ticker;
+    NSArray *headlines;
 }
 
 @property IBOutlet WKInterfaceTable *headlineTable;

@@ -198,7 +198,7 @@
     id dynamicDelegate;
     dynamicDelegate = [[NSObject alloc] init];
     [dynamicDelegate respondsToSelector:@selector(feedParser:didParseFeedInfo:) withKey:nil usingBlock:^(id receiver, MWFeedParser* parser, MWFeedInfo* info) {
-        NSLog(@"title: %@", info.title);
+//        NSLog(@"title: %@", info.title);
         handler(info.title);
     }];
     
